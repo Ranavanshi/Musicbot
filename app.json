@@ -52,7 +52,7 @@
         "SUPPORT_CHANNEL": {
             "description": "𝒀𝒐𝒖𝒓 𝑻𝒆𝒍𝒆𝒈𝒓𝒂𝒎 𝑪𝒉𝒂𝒏𝒏𝒆𝒍 𝑳𝒊𝒏𝒌 𝑰𝒇 𝒀𝒐𝒖 𝑯𝒂𝒗𝒆 𝑬𝒍𝒔𝒆 𝑳𝒆𝒂𝒗𝒆 𝑰𝒕 𝑨𝒔 𝑫𝒆𝒇𝒂𝒖𝒍𝒕",
             "required": false,
-            "value": "https://t.me/wenet_bot_support"
+            "value": "https://t.me/webnet_bot_support"
         },
         "SUPPORT_GROUP": {
             "description": "𝒀𝒐𝒖𝒓 𝑻𝒆𝒍𝒆𝒈𝒓𝒂𝒎 𝑮𝒓𝒐𝒖𝒑 𝑳𝒊𝒏𝒌 𝑰𝒇 𝒀𝒐𝒖 𝑯𝒂𝒗𝒆 𝑬𝒍𝒔𝒆 𝑳𝒆𝒂𝒗𝒆 𝑰𝒕 𝑨𝒔 𝑫𝒆𝒇𝒂𝒖𝒍𝒕",
