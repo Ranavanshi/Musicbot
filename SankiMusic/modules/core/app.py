@@ -47,9 +47,9 @@ class App(Client):
         if config.STRING1:
             await self.one.start()
             try:
-                await self.one.join_chat("AdityaServer")
-                await self.one.join_chat("AdityaDiscus")
-                await self.one.join_chat("Sanki_World")
+                await self.one.join_chat("About_ranavanshi_divy")
+                await self.one.join_chat("webnet_support_chats")
+                await self.one.join_chat("webnet_bot_support")
             except:
                 pass
             assistants.append(1)
@@ -79,9 +79,9 @@ class App(Client):
         if config.STRING2:
             await self.two.start()
             try:
-                await self.two.join_chat("AdityaServer")
-                await self.one.join_chat("AdityaDiscus")
-                await self.one.join_chat("Sanki_World")
+                await self.two.join_chat("about_ranavanshi_divy")
+                await self.one.join_chat("webnet_support_chats")
+                await self.one.join_chat("webnet_bot_support")
             except:
                 pass
             assistants.append(2)
