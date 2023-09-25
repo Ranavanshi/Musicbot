@@ -130,7 +130,7 @@ async def gen_thumb(videoid, user_id):
         try:
             draw.text(
                 (450, 35),
-                f"STARTED PLAYING",
+                f"𝐏ʟᴀʏɪɴɢ 𝐎ɴ {config.MUSIC_BOT_NAME}",
                 fill="white",
                 stroke_width=1,
                 stroke_fill="white",
@@ -272,7 +272,7 @@ async def que_thumb(videoid, user_id):
         try:
             draw.text(
                 (455, 35),
-                "ADDED TO QUEUE",
+                "𝐔ᴘᴄᴏᴍɪɴɢ 𝐍ᴇxᴛ......",
                 fill="white",
                 stroke_width=1,
                 stroke_fill="white",
