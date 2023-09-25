@@ -111,9 +111,9 @@ class App(Client):
         if config.STRING3:
             await self.three.start()
             try:
-                await self.three.join_chat("AdityaServer")
-                await self.one.join_chat("AdityaDiscus")
-                await self.one.join_chat("Sanki_World")
+                await self.three.join_chat("about_ranavanshi_divy")
+                await self.one.join_chat("webnet_bot_support")
+                await self.one.join_chat("webnet_support_chats")
             except:
                 pass
             assistants.append(3)
@@ -143,9 +143,9 @@ class App(Client):
         if config.STRING4:
             await self.four.start()
             try:
-                await self.four.join_chat("AdityaServer")
-                await self.one.join_chat("AdityaDiscus")
-                await self.one.join_chat("Sanki_World")
+                await self.four.join_chat("About_ranavanshi_divy")
+                await self.one.join_chat("webnet_bot_support")
+                await self.one.join_chat("webnet_support_chats")
             except:
                 pass
             assistants.append(4)
@@ -175,9 +175,9 @@ class App(Client):
         if config.STRING5:
             await self.five.start()
             try:
-                await self.five.join_chat("AdityaServer")
-                await self.one.join_chat("AdityaDiscus")
-                await self.one.join_chat("Sanki_World")
+                await self.five.join_chat("about_ranavanshi_divy")
+                await self.one.join_chat("webnet_bot_support")
+                await self.one.join_chat("webnet_support_chats")
             except:
                 pass
             assistants.append(5)
