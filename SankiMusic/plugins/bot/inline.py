@@ -1,4 +1,4 @@
-from pyrogram.types import (InlineKeyboardButton,
+yfrom pyrogram.types import (InlineKeyboardButton,
                             InlineKeyboardMarkup,
                             InlineQueryResultPhoto)
 from youtubesearchpython.__future__ import VideosSearch
@@ -45,15 +45,15 @@ async def inline_query_handler(client, query):
                 ]
             )
             searched_text = f"""
-📌 **ᴛɪᴛʟᴇ:** [{title}]({link})
+📌 **𝐓ɪᴛʟᴇ:** [{title}]({link})
 
-⏳ **ᴅᴜʀᴀᴛɪᴏɴ:** {duration} Mins
-👀 **ᴠɪᴇᴡs:** `{views}`
-⏰ **ᴩᴜʙʟɪsʜᴇᴅ ᴏɴ:** {published}
-🎥 **ᴄʜᴀɴɴᴇʟ:** {channel}
-📎 **ᴄʜᴀɴɴᴇʟ ʟɪɴᴋ:** [ᴠɪsɪᴛ ᴄʜᴀɴɴᴇʟ]({channellink})
+⏳ **𝐃ᴜʀᴀᴛɪᴏɴ:** {duration} Mins
+👀 **𝐕ɪᴇᴡs:** `{views}`
+⏰ **𝐏ᴜʙʟɪsʜᴇᴅ 𝐎ɴ:** {published}
+🎥 **𝐂ʜᴀɴɴᴇʟ:** {channel}
+📎 **𝐂ʜᴀɴɴᴇʟ 𝐋ɪɴᴋ:** [ᴠɪsɪᴛ ᴄʜᴀɴɴᴇʟ]({channellink})
 
-💖 **sᴇᴀʀᴄʜ ᴩᴏᴡᴇʀᴇᴅ ʙʏ {MUSIC_BOT_NAME}**"""
+💖 **𝐒ᴇᴀʀᴄʜ 𝐏ᴏᴡᴇʀᴇᴅ 𝐁ʏ {MUSIC_BOT_NAME}**"""
             answers.append(
                 InlineQueryResultPhoto(
                     photo_url=thumbnail,
